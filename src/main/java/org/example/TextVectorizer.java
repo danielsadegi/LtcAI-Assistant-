@@ -10,7 +10,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class TextVectorizer {
-    private static final String OPENAI_API_KEY = "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";
+    private static final String OPENAI_API_KEY = "OPEN_AIKEY";
 
     public static JSONArray getEmbeddings(String text) throws IOException, InterruptedException {
         HttpClient httpClient = HttpClient.newHttpClient();
