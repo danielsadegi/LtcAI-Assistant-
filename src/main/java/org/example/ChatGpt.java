@@ -12,10 +12,10 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class ChatGpt {
-    private static final String DATABASE_URL = "jdbc:postgresql://localhost:5432/testVectors";
+    private static final String DATABASE_URL = "DATA_BASE_URL";
     private static final String DATABASE_USER = "postgres";
-    private static final String DATABASE_PASSWORD = "1";
-    private static final String OPENAI_API_KEY = "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";
+    private static final String DATABASE_PASSWORD = "PASSWORD";
+    private static final String OPENAI_API_KEY = "API-KEY";
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
