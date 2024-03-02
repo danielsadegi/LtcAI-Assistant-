@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        String filePath = "C:\\Users\\User\\OneDrive\\Рабочий стол\\text.pdf";
+        String filePath = "FILE_PATH";
         try {
             // Получение списка абзацев из PDF
             List<String> paragraphs = PdfReader.getBlocksFromPdf(filePath);
