@@ -8,9 +8,9 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class DatabaseWriter {
-    private static final String URL = "jdbc:postgresql://localhost:5432/testVectors";
+    private static final String URL = "URL";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "1";
+    private static final String PASSWORD = "PASSWORD";
 
     public static void insertParagraph(String paragraph, JSONArray paragraphEmbeddings) throws SQLException {
         try (Connection connection = DriverManager.getConnection(URL, USER, PASSWORD)) {
